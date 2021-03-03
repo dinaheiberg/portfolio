@@ -1,0 +1,288 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* baggrundsfarve */
+body{
+    background-color: #2B2B2B;
+}
+
+/* basis indstillinger */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* nav-bar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    color: #ED5B5B;
+    font-size: 20px;
+    margin-left: -80px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin-right: -200px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+a:hover{
+    color: #ED5B5B;
+}
+
+/* CSS til forsiden */
+.mig{
+    height: 700px;
+    margin-left: 670px;
+    margin-top: 20px;
+
+}
+
+.velkommen{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -460px;
+    margin-left: 130px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.dina{
+    color: #ED5B5B;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -35px;
+    margin-left: 420px;
+    font-size: 30px;
+
+}
+
+.inf{
+    color: white;
+    margin-left: 120px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 890px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.github{
+    height: 35px;
+    width: auto;
+    margin-top: 60px;
+    margin-left: 265px;
+    margin-bottom: 4px;
+}
+
+.linkedin{
+    height: 48px;
+    width: auto;
+    margin-top: 80px;
+    margin-left: -5px;
+}
+
+/* keyframes til CSS animationer */
+@keyframes fadeAndScale {
+    0% {
+        opacity: 0;
+        transform: scale3d(.75,.75,1);
+    }
+
+    70% {
+        opacity: 0;
+        transform: scale3d(.75,.75,1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale3d(1,1,1);
+    }
+}
+
+/* CSS animationer */
+.velkommen {
+    animation: fadeAndScale 1s cubic-bezier(.39,-1.05,.58,1.95);
+    animation-delay: -0.2s;
+    transform-origin: center bottom;
+}
+
+.dina {
+    animation: fadeAndScale 1s cubic-bezier(.39,-1.05,.58,1.95);
+    animation-delay: -0.2s;
+    transform-origin: center bottom;
+}
+
+.inf {
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+}
+
+.mig {
+    animation: fadeAndScale 3s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+}
+
+.github {
+    animation: fadeAndScale 5s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+}
+
+.linkedin {
+    animation: fadeAndScale 5s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+}
+
+/* CSS til "om mig"-siden */
+.intro{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-right: 400px;
+    margin-top: -350px;
+    margin-right: 680px;
+    animation: fadeAndScale 1s cubic-bezier(.39,-1.05,.58,1.95);
+    animation-delay: -0.2s;
+    transform-origin: center bottom;
+
+}
+
+
+.fokus{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;  
+    margin-left: 120px;
+    margin-top: 50px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.fokus-tekst{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;  
+    margin-left: 120px;
+    margin-right: 680px;
+    margin-top: 10px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.kompetencer{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;  
+    margin-left: 120px;
+    margin-top: 50px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+}
+
+.kompetencer_tekst{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;  
+    margin-left: 120px;
+    margin-right: 680px;
+    margin-top: 10px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+}
+
+.mig-rund{
+    width: 600px;
+    margin-left: 820px;
+    margin-top: 40px;
+    animation: fadeAndScale 3s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.hvem{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;  
+    margin-left: 890px;
+    margin-top: -100px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.hvem-tekst{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;  
+    margin-left: 890px;
+    margin-top: 10px;
+    margin-right: 120px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+/* container-wrap med ikoner af kompetencer */
+.container{
+    position: relative;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+    animation: fadeAndScale 4s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+}
+
+.container .box{
+    position:relative;
+    width: 80px;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: -50px;
+}
+
+/* hover effekt til ikonerne */
+.container .box:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 0px 0px rgba(0,0,0,.5);
+}
+.js {
+    height: 45px;
+}
+
+.css{
+    height: 45px;
+}
+
+.html{
+    height: 45px;
+}
+

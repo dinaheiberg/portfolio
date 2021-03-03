@@ -1,0 +1,326 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* baggrundsfarve */
+body{
+    background-color: #2B2B2B;
+}
+
+/* basis indstillinger */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* nav-bar */
+nav{
+    display: flex;
+    min-height: 8vh;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -70px;
+    margin-top: 5px;
+    
+}
+
+.logo{
+    color: #ED5B5B;
+    font-size: 40px;
+    margin-left: 80px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin-top: 22px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+/* keyframes til css animationer */
+@keyframes fadeAndScale {
+    0% {
+        opacity: 0;
+        transform: scale3d(.75,.75,1);
+    }
+
+    70% {
+        opacity: 0;
+        transform: scale3d(.75,.75,1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale3d(1,1,1);
+    }
+}
+
+/* CSS til Promenaden */
+.prom {
+    font-size: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: 85px;
+    animation: fadeAndScale 1s cubic-bezier(.39,-1.05,.58,1.95);
+    animation-delay: -0.2s;
+    transform-origin: center bottom;
+}
+
+.prom-for {
+    width: 700px;
+    height: auto;
+    margin-left: 660px;
+    margin-top: -30px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.prom-pro {
+
+    width: 700px;
+    height: auto;
+    margin-left: 660px;
+    margin-top: 10px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.prom-logo {
+    width: 700px;
+    height: auto;
+    margin-left: 660px;
+    margin-top: 10px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.prom-tekst {
+
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -1000px;
+    margin-left: 85px;
+    margin-right: 800px;
+    line-height: 26px;
+    animation: fadeAndScale 1.3s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.prom-link {
+    font-size: 16px;
+    color: #ED5B5B;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-left: 85px;
+    margin-right: 800px;
+    animation: fadeAndScale 1.3s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.prom-bet{
+    width: 430px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 85px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+
+
+
+
+
+/* CSS til Grappa */
+.grap {
+    font-size: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: 85px;
+    animation: fadeAndScale 1s cubic-bezier(.39,-1.05,.58,1.95);
+    animation-delay: -0.2s;
+    transform-origin: center bottom;
+}
+
+.grap-for {
+    width: 650px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: -30px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.grap-take {
+
+    width: 650px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 10px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.grap-menu {
+    width: 650px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 10px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.grap-tekst {
+
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -1040px;
+    margin-left: 85px;
+    margin-right: 800px;
+    line-height: 26px;
+    animation: fadeAndScale 1.3s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.grap-link {
+    font-size: 16px;
+    color: #ED5B5B;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-left: 85px;
+    margin-right: 800px;
+    animation: fadeAndScale 1.3s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.grap-om{
+    width: 650px;
+    height: auto;
+    margin-top: 270px;
+    margin-left: 85px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+
+
+
+
+
+/* CSS til Søstrene Grene */
+.sos {
+    font-size: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: 85px;
+    animation: fadeAndScale 1s cubic-bezier(.39,-1.05,.58,1.95);
+    animation-delay: -0.2s;
+    transform-origin: center bottom;
+}
+
+.sos-for {
+    width: 650px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: -30px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.sos-kam {
+
+    width: 650px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 10px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.sos-tic {
+    width: 650px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 10px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.sos-tekst {
+
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -1040px;
+    margin-left: 85px;
+    margin-right: 800px;
+    line-height: 26px;
+    animation: fadeAndScale 1.3s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.sos-link {
+    font-size: 16px;
+    color: #ED5B5B;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-left: 85px;
+    margin-right: 800px;
+    animation: fadeAndScale 1.3s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.sos-pro{
+    width: 650px;
+    height: auto;
+    margin-top: 130px;
+    margin-left: 85px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}
+
+.sos-pro2{
+    width: 650px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 85px;
+    animation: fadeAndScale 2s cubic-bezier(.39,-1.05,.58,1.95);
+    transform-origin: center bottom;
+
+}

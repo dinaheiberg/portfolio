@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Dina Heibergs portfolio</title>
+    <meta name="author" content="Dina Heiberg Madsen">
+    <meta name="description" content="portfolio med projekter og information">
+    <meta name="keywords" content="portfolio, projekter, multimediedesign, front-end, grafisk design, webudvikling">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="kontakt.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- nav-bar -->
+        <div class="logo">
+                <a class="logo" href="index.html"> Dina Heiberg</a>
+            </div>
+        </nav>
+        
+    </header>
+    <main> 
+    
+        <!-- baggrundsbillede -->
+        <img class="bg" src="billeder/bg.jpg">
+    
+
+
+        <section class="contact">
+            <div class="content">
+                <h2>Kontakt mig</h2>
+                <p>Hvis du er nysgerrig omkring andre projekter eller har nogen spørgsmål - så tøv ikke med at kontakte mig!</p>
+            </div>
+
+            <!-- ikoner og kontaktinformationer -->
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Telefon</h3>
+                            <p>+45 53 76 29 87</p>
+                        </div>
+                        </div>
+
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>kontakt@dinaheiberg.dk</p>
+                        </div>
+                        </div>
+                </div>
+
+                <!-- kontaktform med "link" til php-fil -->
+
+                <div class="contactForm">
+                    <form class="contact-form" action="kontaktform.php" method="post">
+                        <h2>Send en besked</h2>
+                        <div class="inputBox">
+                            <input type="text" name="name" required="required">
+                            <span>Navn</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="mail" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea name="message" required="required"></textarea>
+                            <span>Skriv besked...</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="submit" value="send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>       
+    </footer>
+
+
+    <!-- jQuery library -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js.js"></script>
+    
+    
+</body>
+
+</html>
